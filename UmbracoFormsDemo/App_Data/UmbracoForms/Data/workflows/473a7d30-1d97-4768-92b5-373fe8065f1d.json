@@ -1,0 +1,16 @@
+{
+  "id": "473a7d30-1d97-4768-92b5-373fe8065f1d",
+  "name": "Send template email to rick.mason@tpr.gov.uk",
+  "form": "712bb435-dc23-4834-872b-468ae12564df",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "rick.mason@tpr.gov.uk",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

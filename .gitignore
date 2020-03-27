@@ -1,10 +1,15 @@
 .vs
 umbraco
 umbraco_client
-App_Data
+cache
+Logs
+NuGetBackup
+TEMP
 App_Browsers
 bin
 obj
 App_Plugins
 packages
 Media
+umbraco.config
+umbraco.licensing.log.txt

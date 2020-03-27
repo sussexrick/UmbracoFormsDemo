@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Form>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+@section head {
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+	<style type="text/css">
+		.btn {     color: #fff;
+    background-color: #337ab7;background: linear-gradient(to bottom,#337ab7 0,#265a88 100%); }
+		.field-validation-error { color: red;}
+		.checkboxlist input, .checkbox input {  position: absolute;
+    width: 20px;
+    margin-top: -5px;
+    margin-right: 10px;}
+		.checkboxlist label, .checkbox label { padding-left: 25px; }
+		.umbraco-forms-navigation.row-fluid { margin-top: 20px;}
+	</style>
+}
+
+<h1>@Model.Content.Name</h1>
+
+@Umbraco.RenderMacro("renderUmbracoForm", new { FormGuid = @Umbraco.Field("formPicker"), FormTheme = "bootstrap3-horizontal", ExcludeScripts = "0" })

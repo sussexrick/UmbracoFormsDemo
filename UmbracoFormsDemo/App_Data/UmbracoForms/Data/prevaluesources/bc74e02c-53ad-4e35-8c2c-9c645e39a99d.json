@@ -1,0 +1,9 @@
+{
+  "id": "bc74e02c-53ad-4e35-8c2c-9c645e39a99d",
+  "name": "Songs",
+  "settings": {
+    "RootNode": "1073",
+    "DocType": "song"
+  },
+  "fieldPreValueSourceTypeId": "de996870-c45a-11de-8a39-0800200c9a66"
+}

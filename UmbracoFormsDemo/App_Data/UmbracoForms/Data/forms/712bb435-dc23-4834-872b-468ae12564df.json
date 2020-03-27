@@ -1,0 +1,368 @@
+{
+  "name": "Everything",
+  "created": "2020-03-27T10:56:52.8345085+00:00",
+  "pages": [
+    {
+      "fieldSets": [
+        {
+          "caption": "Group 1",
+          "sortOrder": 0,
+          "id": "8343716f-4cfa-4c38-aa00-8050648a36d3",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": null,
+              "width": 6,
+              "fields": [
+                {
+                  "caption": "Text field",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "textField",
+                  "id": "b219a2a3-4ffd-4863-b2a0-d0b12a009222",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": "^[0-9]*$",
+                  "requiredErrorMessage": "Type something!",
+                  "invalidErrorMessage": "Numbers only!",
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": "placeholder text"
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Textarea",
+                  "tooltip": "With help text for textarea",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "textarea",
+                  "id": "7d6f746c-8751-4fcb-be41-201bdc1f2d66",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "Default value",
+                    "Placeholder": ""
+                  },
+                  "preValues": []
+                }
+              ]
+            },
+            {
+              "caption": "",
+              "width": 6,
+              "fields": [
+                {
+                  "caption": "Dropdown list",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "dropdownList",
+                  "id": "ffe0f77f-af50-4231-90f6-255a58e22912",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "hide the next group"
+                  },
+                  "preValues": [
+                    "show the next group",
+                    "hide the next group"
+                  ]
+                },
+                {
+                  "caption": "Date field",
+                  "tooltip": "Help text for date",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "dateField",
+                  "id": "5f5bdd45-e75c-4105-bd97-badc7c64056e",
+                  "fieldTypeId": "f8b4c3b8-af28-11de-9dd8-ef5956d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": []
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": false,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": []
+          }
+        },
+        {
+          "caption": "Group 2",
+          "sortOrder": 0,
+          "id": "89945f9a-3455-4fb6-c7c9-a949d836b8a6",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Checkboxes",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "checkboxes",
+                  "id": "aee105c7-23a6-478e-8825-b3d3a336442d",
+                  "fieldTypeId": "fab43f20-a6bf-11de-a28f-9b5755d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "one",
+                    "two",
+                    "three",
+                    "and a file..."
+                  ]
+                },
+                {
+                  "caption": "File upload",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "fileUpload",
+                  "id": "a62a4f7f-f070-4cfa-bd8e-8eff79e94d7c",
+                  "fieldTypeId": "84a17cf8-b711-46a6-9840-0e4a072ad000",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": true,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "aee105c7-23a6-478e-8825-b3d3a336442d",
+                        "operator": "Contains",
+                        "value": "and a file..."
+                      }
+                    ]
+                  },
+                  "settings": {},
+                  "preValues": []
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": true,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": [
+              {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "field": "ffe0f77f-af50-4231-90f6-255a58e22912",
+                "operator": "Is",
+                "value": "show the next group"
+              }
+            ]
+          }
+        }
+      ],
+      "caption": null,
+      "sortOrder": 0,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "form": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "fieldSets": [
+        {
+          "caption": "",
+          "sortOrder": 0,
+          "id": "b4eb98e8-cd88-47ca-ff40-17fbebe358fe",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Radio buttons",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "radioButtons",
+                  "id": "49abe5e7-9af3-42c4-9430-3f80c9db7c79",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "bc74e02c-53ad-4e35-8c2c-9c645e39a99d",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Password",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "password",
+                  "id": "1e29f8c4-8273-4f34-acd7-d408a1d5d90d",
+                  "fieldTypeId": "fb37bc60-d41e-11de-aeae-37c155d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "49abe5e7-9af3-42c4-9430-3f80c9db7c79",
+                        "operator": "Is",
+                        "value": "set a password"
+                      }
+                    ]
+                  },
+                  "settings": {
+                    "Placeholder": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Checkbox",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "checkbox",
+                  "id": "6a5bc30f-a11c-4358-be4f-3bee9288535d",
+                  "fieldTypeId": "d5c0c390-ae9a-11de-a69e-666455d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": []
+                }
+              ]
+            }
+          ],
+          "condition": null
+        }
+      ],
+      "caption": "",
+      "sortOrder": 0,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "form": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "id": "712bb435-dc23-4834-872b-468ae12564df",
+  "fieldIndicationType": "MarkMandatoryFields",
+  "indicator": "*",
+  "showValidationSummary": false,
+  "hideFieldValidation": false,
+  "requiredErrorMessage": "Please provide a value for {0}",
+  "invalidErrorMessage": "Please provide a valid value for {0}",
+  "messageOnSubmit": "Thank you",
+  "goToPageOnSubmit": 1072,
+  "xPathOnSubmit": null,
+  "manualApproval": true,
+  "storeRecordsLocally": true,
+  "cssClass": null,
+  "disableDefaultStylesheet": false,
+  "useClientDependency": false,
+  "workflows": [
+    "473a7d30-1d97-4768-92b5-373fe8065f1d"
+  ],
+  "datasource": null,
+  "submitLabel": "Submit",
+  "nextLabel": "Next",
+  "prevLabel": "Previous"
+}
