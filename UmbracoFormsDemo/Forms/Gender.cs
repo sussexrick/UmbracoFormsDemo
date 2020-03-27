@@ -20,6 +20,7 @@ namespace UmbracoFormsDemo.Forms
             SupportsPrevalues = false;
             SupportsRegex = false;
             SortOrder = 100;
+            RenderView = "gender"; // /App_Plugins/UmbracoForms/BackOffice/Common/RenderTypes/gender.html
         }
     }
 }
