@@ -330,6 +330,30 @@
                     "DefaultValue": ""
                   },
                   "preValues": []
+                },
+                {
+                  "caption": "Gender",
+                  "tooltip": "Custom field with options recommended by GOV.UK",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "gender",
+                  "id": "40ad3c23-675c-48e1-851c-960dadfdf9df",
+                  "fieldTypeId": "f384b6df-1344-4416-a4af-562c97a23844",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": []
                 }
               ]
             }

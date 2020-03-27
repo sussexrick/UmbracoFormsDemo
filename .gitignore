@@ -8,7 +8,6 @@ TEMP
 App_Browsers
 bin
 obj
-App_Plugins
 packages
 Media
 umbraco.config

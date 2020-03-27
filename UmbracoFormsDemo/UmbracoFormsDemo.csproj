@@ -415,6 +415,7 @@
     <Compile Include="App_Data\Models\Song.generated.cs" />
     <Compile Include="App_Data\Models\Songs.generated.cs" />
     <Compile Include="App_Data\Models\ThankYou.generated.cs" />
+    <Compile Include="Forms\Gender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -505,6 +506,7 @@
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\ThankYou.cshtml" />
+    <Content Include="Views\Partials\Forms\Themes\default\Fieldtypes\FieldType.Gender.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
