@@ -1,0 +1,10 @@
+.vs
+umbraco
+umbraco_client
+App_Data
+App_Browsers
+bin
+obj
+App_Plugins
+packages
+Media
