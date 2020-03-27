@@ -418,6 +418,7 @@
     <Compile Include="App_Data\Models\Songs.generated.cs" />
     <Compile Include="App_Data\Models\ThankYou.generated.cs" />
     <Compile Include="Forms\Gender.cs" />
+    <Compile Include="Forms\RetentionAfterSetDateWorkflow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

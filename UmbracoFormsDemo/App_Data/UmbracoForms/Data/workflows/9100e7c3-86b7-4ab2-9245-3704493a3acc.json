@@ -1,0 +1,15 @@
+{
+  "id": "9100e7c3-86b7-4ab2-9245-3704493a3acc",
+  "name": "Retention",
+  "form": "712bb435-dc23-4834-872b-468ae12564df",
+  "active": true,
+  "workflowTypeId": "82311c7d-351b-4a50-8924-0a919dc806fd",
+  "executesOn": "Submitted",
+  "settings": {
+    "Days": "",
+    "Weeks": "",
+    "Months": "3",
+    "Years": ""
+  },
+  "sortOrder": 1
+}

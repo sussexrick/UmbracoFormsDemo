@@ -354,6 +354,30 @@
                   },
                   "settings": {},
                   "preValues": []
+                },
+                {
+                  "caption": "Delete after",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "deleteAfter",
+                  "id": "bef5b5ac-d3bc-42ed-b86a-66594e552bef",
+                  "fieldTypeId": "da206cae-1c52-434e-b21a-4a7c198af877",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": []
                 }
               ]
             }
@@ -383,7 +407,8 @@
   "disableDefaultStylesheet": false,
   "useClientDependency": false,
   "workflows": [
-    "473a7d30-1d97-4768-92b5-373fe8065f1d"
+    "473a7d30-1d97-4768-92b5-373fe8065f1d",
+    "9100e7c3-86b7-4ab2-9245-3704493a3acc"
   ],
   "datasource": null,
   "submitLabel": "Submit",
