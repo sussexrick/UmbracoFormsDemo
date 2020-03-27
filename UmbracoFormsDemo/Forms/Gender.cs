@@ -1,5 +1,6 @@
 ﻿using System;
 using Umbraco.Forms.Core;
+using Umbraco.Forms.Core.Attributes;
 
 namespace UmbracoFormsDemo.Forms
 {
@@ -22,5 +23,11 @@ namespace UmbracoFormsDemo.Forms
             SortOrder = 100;
             RenderView = "gender"; // /App_Plugins/UmbracoForms/BackOffice/Common/RenderTypes/gender.html
         }
+
+        [Setting("Example custom setting type", view = "RichTextEditor")]
+        public string ExampleHtmlSetting { get; set; }
+
+        [Setting("Example content picker setting", view = "pickers.content")]
+        public string ContentPicker { get; set; }
     }
 }

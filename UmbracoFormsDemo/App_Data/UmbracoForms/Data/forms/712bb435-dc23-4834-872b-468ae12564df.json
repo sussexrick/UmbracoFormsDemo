@@ -333,7 +333,7 @@
                 },
                 {
                   "caption": "Gender",
-                  "tooltip": "Custom field with options recommended by GOV.UK",
+                  "tooltip": "",
                   "placeholder": null,
                   "cssClass": null,
                   "alias": "gender",
@@ -352,7 +352,9 @@
                     "logicType": "All",
                     "rules": []
                   },
-                  "settings": {},
+                  "settings": {
+                    "ExampleHtmlSetting": "<p>Custom field with options <strong>recommended by <a href=\"https://design-system.service.gov.uk/patterns/gender-or-sex/\">GOV.UK</a></strong></p>"
+                  },
                   "preValues": []
                 },
                 {
@@ -376,7 +378,9 @@
                     "logicType": "All",
                     "rules": []
                   },
-                  "settings": {},
+                  "settings": {
+                    "DefaultValue": ""
+                  },
                   "preValues": []
                 }
               ]
