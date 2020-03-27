@@ -53,12 +53,12 @@ You can login to this demo as demo@example.org / demodemodemo.
 - Custom field type - Gender
   - [Forms/Gender.cs](UmbracoFormsDemo/Forms/Gender.cs)
   - View at [Views/Partials/Forms/Themes/default/Fieldtypes/FieldType.Gender.cshtml](UmbracoFormsDemo/Views/Partials/Forms/Themes/default/Fieldtypes/FieldType.Gender.cshtml)
-  - FieldType at [App_Plugins/UmbracoForms/BackOffice/Common/FieldTypes/gender.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/BackOffice/Common/FieldTypes/gender.html)
-  - RenderType at [App_Plugins/UmbracoForms/BackOffice/Common/RenderTypes/gender.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/BackOffice/Common/RenderTypes/gender.html)
+  - FieldType at [App_Plugins/UmbracoForms/Backoffice/Common/FieldTypes/Gender.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/Backoffice/Common/FieldTypes/Gender.html)
+  - RenderType at [App_Plugins/UmbracoForms/Backoffice/Common/RenderTypes/gender.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/Backoffice/Common/RenderTypes/gender.html)
 - Custom workflow [Forms/RetentionAfterSetDateWorkflow.cs](UmbracoFormsDemo/Forms/RetentionAfterSetDateWorkflow.cs) demonstrating updating a field with the alias `deleteAfter` based on custom settings
 - Custom setting type for rich HTML on the Gender field type
   - Setting added in `Gender.cs`
-  - [App_Plugins/UmbracoForms/BackOffice/Common/SettingTypes/RichTextEditor.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/BackOffice/Common/SettingTypes/RichTextEditor.html)
+  - [App_Plugins/UmbracoForms/Backoffice/Common/SettingTypes/RichTextEditor.html](UmbracoFormsDemo/App_Plugins/UmbracoForms/Backoffice/Common/SettingTypes/RichTextEditor.html)
   - Custom controller for editing in [App_Plugins/UmbracoFormsContrib](UmbracoFormsDemo/App_Plugins/UmbracoFormsContrib) (only needed because TinyMCE requires JS)
   - View at [Views/Partials/Forms/Themes/default/Fieldtypes/FieldType.Gender.cshtml](UmbracoFormsDemo/Views/Partials/Forms/Themes/default/Fieldtypes/FieldType.Gender.cshtml) updated to use/display the setting
   - Also show built-in Content Picker setting type
