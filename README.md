@@ -8,7 +8,7 @@ You can login to this demo as demo@example.org / demodemodemo.
 
 - Lets developers or editors build forms with little or no code
 - Paid (but inexpensive) plugin for Umbraco
-- Less mature than Umbraco itself. Be aware older versions are a bit buggy, particularly around conditions and especially for radio buttons
+- Less mature than Umbraco itself. Be aware older versions are a bit buggy.
 
 ## Show 'Everything' form
 
@@ -16,7 +16,7 @@ You can login to this demo as demo@example.org / demodemodemo.
 - help text / default values / placeholder text
 - validation - required and regex
 - groups / columns / themes
-- conditions (by group, by field - supports multiple conditions to show a field)
+- conditions (by group, by field - supports multiple conditions to show a field, but buggy behaviour is particularly around conditions and especially for radio buttons)
 - multi-page forms
 - pre-value source - from Umbraco content but could also come from database / text file / data type
 - submit - goes to thank you page
@@ -69,3 +69,4 @@ You can login to this demo as demo@example.org / demodemodemo.
 - Uploads rely on security by obscurity
 - No retention schedule
 - Default email sends out all form fields including private data. May be mitigated by sensitive data fields from Umbraco 7.9/Umbraco Forms 7.0?
+- Versioning and losing data
